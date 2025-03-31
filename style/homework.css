@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+form {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    i{
+        position: absolute;
+        left: 15px;
+    }
+
+
+    input{
+        padding: 8px 10px 8px 40px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        width: 400px;
+        -webkit-box-shadow: 4px 1px 35px -17px rgba(255,255,255,0.77);
+        -moz-box-shadow: 4px 1px 35px -17px rgba(255,255,255,0.77);
+        box-shadow: 4px 1px 35px -17px rgba(255,255,255,0.77);
+    }
+    
+}
+
+.BGI{
+    background-image: url(../img/lloud.jpeg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+}
+
+
+.Groupone{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    padding: 50px;
+    
+    div{
+        width: 500px;
+        border:solid #ccc;
+        border-radius: 10px;
+    
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;}
+
+        h3{
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        p{
+            text-align: start;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(199, 199, 215);
+            height: 30px;
+
+            ul{
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+            }
+            li{
+                padding: 8px;
+                
+            }
+            li i {
+                margin-right: 7px;
+            }
+        
+        }
+        
+        
+    }    
+
+   i:hover{
+    color: red;
+   } 
+        
+
+}
+
+

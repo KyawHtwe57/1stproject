@@ -1,0 +1,21 @@
+#p01
+{
+    color: rgb(3, 3, 81); background-color: rgb(58, 158, 246);
+    
+}
+
+.h04
+{
+    color: brown; background-color: rgb(95, 13, 238);
+    
+}
+table thead
+{
+    color: rgb(77, 8, 8);
+    font-size: 40px;
+}
+
+.Testing{
+    background-image: url(../img/lloud.jpeg);
+    height: 10pxx;
+}

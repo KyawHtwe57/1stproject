@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+#Logo h3 {
+    font-size: 22px;
+    color: #111;
+}
+
+#Bar ul {
+    display: flex;
+    list-style: none;
+}
+
+#Bar ul li {
+    margin: 0 15px;
+}
+
+#Bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#LoginSignup {
+    display: flex;
+    align-items: center;
+}
+
+#LoginSignup a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: black;
+}
+
+#Login a:hover{
+     text-decoration: underline;
+}
+
+#Signup a {
+    background-color: #FFC107;
+    color: rgb(255, 254, 254);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+#BackgroundImage {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url('../img/dim_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: white;
+}
+
+#BackgroundImage h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#BackgroundImage p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#BackgroundImage h3 span {
+    background-color: #FFC107;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#P1{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#Bttn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FFC107;
+    border: solid #FFC107;
+    border-radius: 5px;
+}
+
+#Bttn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#Bttn:hover{
+    background-color: #ffffff;
+    border: solid #ffffff;
+}
+
+#Bttn a:hover{
+    color:#FFC107;
+}
+
+#Signup a:hover{
+    background-color: chartreuse;
+}
+    
+#Bg2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: url('../img/149d4436424aa495da631e9a850e1e5a.png') no-repeat center center/cover;
+    border-radius: 10px;
+
+}
+
+#Main{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center
+    
+}
+#Icon{
+    font-size: 40px;
+    color: #f4b400;
+}
+
+#Paragraph{
+    
+    h3{
+        font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 10px;
+        color: #f4b400;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    p{
+        font-size: 16px;
+        color: #666;
+        margin: 10px 0;
+    }
+}
+
+#Paragraph a:hover {
+    text-decoration: underline;
+}
+
+#Group1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#Title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#Gp{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    h4{
+        display: flex;
+        text-align: start;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    a{
+        display: flex;
+        text-align: start;
+        text-decoration: none;
+        color: #f4b400;
+        margin-bottom: 20px;
+    }
+}
+
+#Gp a:hover{
+    text-decoration: underline;
+}
+
+#Link span a{
+    border: #f4b400 solid;
+    text-decoration: none;
+    color: #f4b400;
+    padding: 10px;
+}
+
+#Link span a:hover{
+    background-color: #f4b400;
+    color: #ffffff;
+}
+
+#Gptwo{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+}
+
+#Bttnone{
+    background-color: #f4b400;
+    padding: 8px;
+    margin-right: 20px;
+    a{
+        text-decoration: none;
+    }
+    
+}
+
+#Bttntwo{
+    background-color: #f4b400;
+    padding: 8px;
+    a{
+        text-decoration: none;
+    }
+}
+
