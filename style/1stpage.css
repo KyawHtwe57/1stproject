@@ -22,9 +22,15 @@ header {
     background-color: white;
 }
 
-#Logo h3 {
-    font-size: 22px;
-    color: #111;
+#Logo {
+    h3{
+        font-size: 22px;
+        color: #111;
+    }
+    a{
+        text-decoration: none;
+    }
+    
 }
 
 #Bar ul {
@@ -196,6 +202,13 @@ header {
     font-size: 20px;
 }
 
+#Numbertwo{
+    img{
+        width: 509px;
+        height: 339px;
+    }
+}
+
 #Gp{
     display: flex;
     justify-content: center;
@@ -273,8 +286,7 @@ header {
     background-color: #36384e;
     color: white;
     padding: 20px;
-    border-radius: 5px;
-    h2{
+        h2{
         margin-bottom: 20px;
     }
     p{
@@ -297,7 +309,6 @@ input[type="email"] {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    /* margin-bottom: 15px; */
 }
 
 input[type="checkbox"] {
@@ -323,3 +334,31 @@ button {
 button:hover {
     background-color: #d88b00;
 }
+
+hr{
+   margin: 20px auto;
+}
+
+#SocialIcons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+    font-size: 35px;
+}
+
+#Links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+#CR{
+    margin-top: 20px;
+}
+    

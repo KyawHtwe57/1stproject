@@ -7,10 +7,10 @@
 
 body{
     background-color: #f0f2f5;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 #Main{
@@ -24,7 +24,16 @@ body{
 #No1{
     font-size: 20px;
     margin-bottom: 30px;
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
 }
+
+#No1 a:hover{
+    text-decoration: underline;
+}
+
 #two{
     padding: 20px;
     border-radius: 10px;
@@ -64,4 +73,38 @@ button {
 
 #Link a:hover{
     text-decoration: underline;
+}
+
+footer{
+    background-color: #36384e;
+    height: 200px;
+    color: #ffffff;
+    padding: 10px;
+
+
+}
+#SocialIcons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 40px;
+    font-size: 35px;
+}
+
+#Links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+#CR{
+    
+    margin-top: 20px;
+    text-align: center;
 }
